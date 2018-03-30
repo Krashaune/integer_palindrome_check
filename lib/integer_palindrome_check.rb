@@ -4,6 +4,8 @@ def is_palindrome(number)
   num = number
   return false if num == nil
   return false if num < 0
+  return true if num < 10
+  
 
   size = num.size
   start = 0
